@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 상단에 TextView 추가 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="202035191/이경준"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:padding="8dp"
+        android:background="#CCCCCC"/>
+
+    <!-- DatePicker -->
+    <DatePicker
+        android:datePickerMode="spinner"
+        android:id="@+id/datePicker1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:calendarViewShown="false"
+        />
+
+    <!-- EditText -->
+    <EditText
+        android:id="@+id/edtDiary"
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:background="#00ff00"
+        android:lines="8" />
+
+    <!-- Button -->
+    <Button
+        android:id="@+id/btnWrite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="Button"/>
+
+</LinearLayout>
